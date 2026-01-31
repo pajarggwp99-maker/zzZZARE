@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelas 11 IPA 1 - Website Kelas</title>
+    <meta name="description" content="Website kelas 11 IPA 1 dengan informasi anggota kelas dan about me">
+    <link rel="stylesheet" href="kelas-simple.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loader">
+            <div class="loader-circle"></div>
+            <div class="loader-text">Loading Kelas...</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-users"></i>
+                <span>Kelas 11 IPA 1</span>
+            </div>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#members" class="nav-link">Anggota Kelas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Galeri</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Kontak</a>
+                </li>
+            </ul>
+
+            <div class="theme-toggle" id="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Selamat Datang di <span class="highlight">Kelas 11 IPA 1</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Website resmi kelas 11 IPA 1 - Tempat berkumpulnya para siswa berprestasi dan penuh semangat!
+                </p>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="32">0</div>
+                        <div class="stat-label">Siswa</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="1">0</div>
+                        <div class="stat-label">Kelas Terbaik</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="100">0</div>
+                        <div class="stat-label">% Semangat</div>
+                    </div>
+                </div>
+                
+                <div class="hero-buttons">
+                    <a href="#members" class="btn btn-primary">
+                        <i class="fas fa-users"></i>
+                        <span>Lihat Anggota</span>
+                    </a>
+                    <a href="#about" class="btn btn-secondary">
+                        <i class="fas fa-info-circle"></i>
+                        <span>About Me</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Mengenal lebih dekat dengan pembuat website ini</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="https://cdn.discordapp.com/attachments/1461013608363327672/1467155173788094464/foto_siswa_barengan.jpeg?ex=697f5a3b&is=697e08bb&hm=076e63fca7d2b63cda71ea947b2b37fb1aa2c6926541aaa4c4d046c0eab6c67f&" alt="Profile" id="profile-img">
+                        <div class="image-overlay">
+                            <div class="overlay-content">
+                                <i class="fas fa-code"></i>
+                                <span>Web Developer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-text">
+                    <h3>Halo, Saya Ahmad Siswa!</h3>
+                    <p class="intro-text">
+                        Saya adalah siswa kelas 11 IPA 1 yang passionate dalam bidang teknologi dan programming. 
+                        Website ini saya buat sebagai wadah untuk memperkenalkan kelas kami dan juga sebagai 
+                        portfolio pribadi saya.
+                    </p>
+                    
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <i class="fas fa-user"></i>
+                            <div class="info-content">
+                                <span class="info-label">Nama</span>
+                                <span class="info-value">Ahmad Siswa</span>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div class="info-content">
+                                <span class="info-label">Kelas</span>
+                                <span class="info-value">11 IPA 1</span>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info-content">
+                                <span class="info-label">Asal</span>
+                                <span class="info-value">Jakarta, Indonesia</span>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-heart"></i>
+                            <div class="info-content">
+                                <span class="info-label">Hobi</span>
+                                <span class="info-value">Coding, Gaming, Reading</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-section">
+                        <h4>Skills & Interests</h4>
+                        <div class="skills-tags">
+                            <span class="skill-tag">HTML & CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Web Design</span>
+                            <span class="skill-tag">Photography</span>
+                            <span class="skill-tag">Gaming</span>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-discord"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Members Section -->
+    <section id="members" class="members">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Anggota Kelas 11 IPA 1</h2>
+                <p class="section-subtitle">Keluarga besar kelas 11 IPA 1 yang solid dan kompak</p>
+            </div>
+            
+            <div class="members-filter">
+                <button class="filter-btn active" data-filter="all">Semua (32)</button>
+                <button class="filter-btn" data-filter="laki-laki">Laki-laki (16)</button>
+                <button class="filter-btn" data-filter="perempuan">Perempuan (16)</button>
+                <button class="filter-btn" data-filter="pengurus">Pengurus (8)</button>
+            </div>
+            
+            <div class="members-grid">
+                <!-- Ketua Kelas -->
+                <div class="member-card" data-category="laki-laki pengurus">
+                    <div class="member-image">
+                        <img src="://ihttpsmages.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face" alt="Ahmad Ketua">
+                        <div class="member-overlay">
+                            <div class="member-role">Ketua Kelas</div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Ahmad Ketua</h3>
+                        <p class="member-position">Ketua Kelas</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-id-card"></i> 001</span>
+                            <span><i class="fas fa-star"></i> Leader</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Wakil Ketua -->
+                <div class="member-card" data-category="perempuan pengurus">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=300&h=300&fit=crop&crop=face" alt="Sari Wakil">
+                        <div class="member-overlay">
+                            <div class="member-role">Wakil Ketua</div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Sari Wakil</h3>
+                        <p class="member-position">Wakil Ketua Kelas</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-id-card"></i> 002</span>
+                            <span><i class="fas fa-crown"></i> Co-Leader</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sekretaris -->
+                <div class="member-card" data-category="perempuan pengurus">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face" alt="Maya Sekretaris">
+                        <div class="member-overlay">
+                            <div class="member-role">Sekretaris</div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Maya Sekretaris</h3>
+                        <p class="member-position">Sekretaris Kelas</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-id-card"></i> 003</span>
+                            <span><i class="fas fa-pen"></i> Secretary</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bendahara -->
+                <div class="member-card" data-category="laki-laki pengurus">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face" alt="Budi Bendahara">
+                        <div class="member-overlay">
+                            <div class="member-role">Bendahara</div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Budi Bendahara</h3>
+                        <p class="member-position">Bendahara Kelas</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-id-card"></i> 004</span>
+                            <span><i class="fas fa-coins"></i> Treasurer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Anggota Biasa -->
+                <div class="member-card" data-category="perempuan">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&h=300&fit=crop&crop=face" alt="Rina Siswa">
+                    </div>
+                    <div class="member-info">
+                        <h3>Rina Siswa</h3>
+                        <p class="member-position">Anggota Kelas</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-id-card"></i> 005</span>
+                            <span><i class="fas fa-user"></i> Member</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="member-card" data-category="laki-laki">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&crop=face" alt="Andi Siswa">
+                    </div>
+                    <div class="member-info">
+                        <h3>Andi Siswa</h3>
+                        <p class="member-position">Anggota Kelas</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-id-card"></i> 006</span>
+                            <span><i class="fas fa-user"></i> Member</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="member-card" data-category="perempuan">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&h=300&fit=crop&crop=face" alt="Lisa Siswa">
+                    </div>
+                    <div class="member-info">
+                        <h3>Lisa Siswa</h3>
+                        <p class="member-position">Anggota Kelas</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-id-card"></i> 007</span>
+                            <span><i class="fas fa-user"></i> Member</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="member-card" data-category="laki-laki">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=300&h=300&fit=crop&crop=face" alt="Doni Siswa">
+                    </div>
+                    <div class="member-info">
+                        <h3>Doni Siswa</h3>
+                        <p class="member-position">Anggota Kelas</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-id-card"></i> 008</span>
+                            <span><i class="fas fa-user"></i> Member</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Koordinator Mata Pelajaran -->
+                <div class="member-card" data-category="perempuan pengurus">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=300&h=300&fit=crop&crop=face" alt="Nina Koordinator">
+                        <div class="member-overlay">
+                            <div class="member-role">Koordinator Mapel</div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Nina Koordinator</h3>
+                        <p class="member-position">Koordinator Mata Pelajaran</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-id-card"></i> 009</span>
+                            <span><i class="fas fa-book"></i> Coordinator</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lebih banyak anggota... -->
+                <div class="member-card" data-category="laki-laki">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=300&h=300&fit=crop&crop=face" alt="Reza Siswa">
+                    </div>
+                    <div class="member-info">
+                        <h3>Reza Siswa</h3>
+                        <p class="member-position">Anggota Kelas</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-id-card"></i> 010</span>
+                            <span><i class="fas fa-user"></i> Member</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="member-card" data-category="perempuan">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=300&h=300&fit=crop&crop=face" alt="Dina Siswa">
+                    </div>
+                    <div class="member-info">
+                        <h3>Dina Siswa</h3>
+                        <p class="member-position">Anggota Kelas</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-id-card"></i> 011</span>
+                            <span><i class="fas fa-user"></i> Member</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="member-card" data-category="laki-laki">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&h=300&fit=crop&crop=face" alt="Fajar Siswa">
+                    </div>
+                    <div class="member-info">
+                        <h3>Fajar Siswa</h3>
+                        <p class="member-position">Anggota Kelas</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-id-card"></i> 012</span>
+                            <span><i class="fas fa-user"></i> Member</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tambahan anggota untuk mencapai 32 siswa -->
+                <div class="member-card coming-soon">
+                    <div class="member-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Dan 20 Anggota Lainnya</h3>
+                        <p class="member-position">Segera Hadir</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-users"></i> +20 Members</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Galeri Kelas</h2>
+                <p class="section-subtitle">Momen-momen berharga bersama kelas 11 IPA 1</p>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=400&h=300&fit=crop" alt="Kegiatan Kelas">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3>Kegiatan Belajar</h3>
+                            <p>Suasana belajar yang menyenangkan</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=400&h=300&fit=crop" alt="Praktikum Lab">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3>Praktikum Lab</h3>
+                            <p>Eksperimen sains yang seru</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=400&h=300&fit=crop" alt="Presentasi">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3>Presentasi Kelompok</h3>
+                            <p>Berbagi ilmu dan pengalaman</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop" alt="Diskusi">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3>Diskusi Kelas</h3>
+                            <p>Bertukar pikiran dan ide</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=400&h=300&fit=crop" alt="Event Kelas">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3>Event Kelas</h3>
+                            <p>Perayaan dan kebersamaan</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop" alt="Kompetisi">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3>Kompetisi</h3>
+                            <p>Prestasi dan pencapaian kelas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Hubungi Kami</h2>
+                <p class="section-subtitle">Ingin bergabung atau bertanya tentang kelas kami?</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Sekolah</h3>
+                            <p>SMA Negeri 1 Jakarta</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Alamat</h3>
+                            <p>Jl. Pendidikan No. 123, Jakarta</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>WhatsApp Kelas</h3>
+                            <p>+62 896-0178-1488</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>kelas11ipa1@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form">
+                        <h3>Kirim Pesan</h3>
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Nama Anda" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Email Anda" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Subjek" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Pesan Anda" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            <span>Kirim Pesan</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-users"></i>
+                        <span>Kelas 11 IPA 1</span>
+                    </div>
+                    <p>Website resmi kelas 11 IPA 1 SMA Negeri 1 Jakarta. Dibuat dengan ❤️ oleh Ahmad Siswa.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#members">Anggota Kelas</a></li>
+                        <li><a href="#gallery">Galeri</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Kontak</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>+62 896-0178-1488</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>kelas11ipa1@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Kelas 11 IPA 1. Made with ❤️ by Ahmad Siswa</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="kelas-simple.js"></script>
+</body>
+</html>
